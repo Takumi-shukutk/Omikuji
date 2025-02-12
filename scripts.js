@@ -4,10 +4,10 @@ let color=["red","blue","yellow","green","black","bad"]
 let $button=document.querySelector(".button");
 let $result=document.querySelector(".result");
 $button.addEventListener("click", function () {
-    for(let i=0;i<color.length;i++){
+    for(let i=0;i<fortune.length;i++){
         $result.classList.remove(color[i])
     }
-    let randomnumber=Math.floor(Math.random()*color.length)
+    let randomnumber=Math.floor(Math.random()*fortune.length)
     $result.innerHTML=fortune[randomnumber];
     $result.classList.add(color[randomnumber]);
 });
