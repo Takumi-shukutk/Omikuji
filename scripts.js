@@ -4,7 +4,7 @@ let color=["red","blue","yellow","green","black","bad"]
 let $button=document.querySelector(".button");
 let $result=document.querySelector(".result");
 $button.addEventListener("click", function () {
-    for(let i=0;i<5;i++){
+    for(let i=0;i<6;i++){
         $result.classList.remove(color[i])
     }
     let randomnumber=Math.floor(Math.random()*6)
