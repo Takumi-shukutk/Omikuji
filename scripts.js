@@ -1,5 +1,5 @@
 let fortune=["大吉","吉","中吉","小吉","凶","大凶"]
-let color=["red","blue","yellow","green","black""bad"]
+let color=["red","blue","yellow","green","black","bad"]
 
 let $button=document.querySelector(".button");
 let $result=document.querySelector(".result");
